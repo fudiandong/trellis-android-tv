@@ -1,6 +1,6 @@
 {
   "name": "@fudiandong/trellis-android-tv",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Android TV + 触屏双兼容 Trellis 规范包 / Skills / Agent",
   "main": "trellis-manifest.json",
    "author": {

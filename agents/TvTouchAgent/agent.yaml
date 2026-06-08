@@ -1,0 +1,17 @@
+name: TvTouchDevAgent
+display_name: AndroidTV+触屏专用开发Agent
+description: 基于Java MVVM、AndroidX，统一适配TV遥控器Dpad焦点+触屏点击，强制Base基类、TvRecyclerView、多尺寸dimens适配
+bind_specs:
+  - ../spec/android_tv_base.md
+  - ../spec/tv_touch_layout.md
+  - ../spec/dpad_focus_rule.md
+  - ../spec/mvvm_rule.md
+  - ../spec/res_resource.md
+bind_skills:
+  - tv_focus_check
+  - touch_compat
+  - layout_adapt
+  - code_review_tv
+bind_workflow: ../workflow.md
+prompt_file: ./prompt.md
+scope: global

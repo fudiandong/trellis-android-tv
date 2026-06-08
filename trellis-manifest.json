@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0",
+  "type": "trellis-preset",
+  "presetName": "android-tv-touch",
+  "specDir": "./spec",
+  "skillDir": "./skills",
+  "agentDir": "./agents",
+  "templateDir": "./template",
+  "workflowFile": "./workflow.md",
+  "defaultAgent": "TvTouchDevAgent"
+}

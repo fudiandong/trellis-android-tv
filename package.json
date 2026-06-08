@@ -1,0 +1,28 @@
+{
+  "name": "trellis-android-tv",
+  "version": "1.0.1",
+  "description": "Android TV + 触屏双兼容 Trellis 规范包 / Skills / Agent",
+  "main": "trellis-manifest.json",
+  "files": [
+    "spec/**",
+    "skills/**",
+    "agents/**",
+    "template/**",
+    "workflow.md",
+    "trellis-manifest.json"
+  ],
+  "keywords": [
+    "trellis",
+    "codebuddy",
+    "android-tv",
+    "dpad",
+    "focus",
+    "touch",
+    "mvvm"
+  ],
+  "author": "你的名字",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,20 +1,14 @@
 {
   "name": "@fudiandong/trellis-android-tv",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Android TV + 触屏双兼容 Trellis 规范包 / Skills / Agent",
   "main": "trellis-manifest.json",
-   "author": {
+  "author": {
     "name": "fudiandong",
     "email": "5036175@qq.com",
     "url": "https://github.com/fudiandong"
   },
   "license": "MIT",
-  "categories": [
-    "android",
-    "tv",
-    "mvvm",
-    "trellis-rule"
-  ],
   "files": [
     "spec/**",
     "skills/**",
@@ -32,17 +26,12 @@
     "touch",
     "mvvm"
   ],
-  "author": "fudiandong",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fudiandong/trellis-android-tv.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
+    "registry": "https://registry.npmjs.org/",
     "access": "public"
-  },
-  "dependencies": {
-    "@fudiandong/trellis-android-tv": "github:fudiandong/trellis-android-tv#v1.0.3"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@fudiandong/trellis-android-tv",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Android TV + 触屏双兼容 Trellis 规范包 / Skills / Agent",
   "main": "trellis-manifest.json",
   "author": {
@@ -15,7 +15,10 @@
     "agents/**",
     "template/**",
     "workflow.md",
-    "trellis-manifest.json"
+    "trellis-manifest.json",
+    ".codebuddy-plugin/**",
+    "hooks/**",
+    "settings.json"
   ],
   "keywords": [
     "trellis",

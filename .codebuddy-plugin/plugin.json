@@ -1,0 +1,16 @@
+{
+  "name": "trellis-android-tv",
+  "version": "1.0.8",
+  "description": "Android TV + 触屏双兼容开发规范包 / Skills / Agent",
+  "author": {
+    "name": "fudiandong",
+    "email": "5036175@qq.com",
+    "url": "https://github.com/fudiandong"
+  },
+  "homepage": "https://github.com/fudiandong/trellis-android-tv",
+  "repository": "https://github.com/fudiandong/trellis-android-tv",
+  "license": "MIT",
+  "keywords": ["android-tv", "dpad", "focus", "touch", "mvvm"],
+  "category": "开发工具",
+  "hooks": "./hooks/hooks.json"
+}

@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if exist .trellis\\spec\\android_tv (echo Trellis spec already exists) else (if not exist .trellis\\spec mkdir .trellis\\spec && if not exist .trellis\\spec\\android_tv mkdir .trellis\\spec\\android_tv && xcopy /E /Y spec\\* .trellis\\spec\\android_tv\\ >nul 2>&1 && echo Trellis spec copied to .trellis\\spec\\android_tv)"
+          },
+          {
+            "type": "prompt",
+            "prompt": "你正在开发 Android TV + 触屏双兼容应用。请遵循以下规范：\n\n## Android TV 基础规范\n读取并遵循 ./spec/android_tv_base.md 中的所有规则。\n\n## TV+触屏布局规范\n读取并遵循 ./spec/tv_touch_layout.md 中的所有规则。\n\n## Dpad焦点规则\n读取并遵循 ./spec/dpad_focus_rule.md 中的所有规则。\n\n## MVVM架构规则\n读取并遵循 ./spec/mvvm_rule.md 中的所有规则。\n\n## 资源规范\n读取并遵循 ./spec/res_resource.md 中的所有规则。\n\n## 工作流程\n读取并遵循 ./workflow.md 中的开发流程。"
+          }
+        ]
+      }
+    ],
+    "InstructionsLoaded": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "已加载项目规范。请确认你理解了 Android TV + 触屏双兼容开发的各项规则。"
+          }
+        ]
+      }
+    ]
+  }
+}
